@@ -7,8 +7,7 @@ public class Exercice {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		// Pour tester charLength et toLowerAndUpperCase, il faut commenter l'un des deux
-		// charLength();
+		charLength();
 		toLowerAndUpperCase();
 		System.out.println(replace("Hello"));
 		Livre livre1 = new Livre("Thomas", "Henriet", "Horreur", "978-2070584642");
@@ -42,7 +41,6 @@ public class Exercice {
 		System.out.print("Entre des caractères: ");
 		String data = input.nextLine();
 		System.out.println("Le nombre de caractères rentrés est : " + data.length());
-		input.close();
 	}
 
 	public static void toLowerAndUpperCase() {
